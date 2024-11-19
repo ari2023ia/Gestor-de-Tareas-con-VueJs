@@ -15,5 +15,6 @@ export default defineConfig({
     alias: {
       vue: 'vue/dist/vue.esm-bundler.js'
     }
-  }
+  },
+  base: '/Gestor-de-Tareas-con-VueJs/'
 })
