@@ -16,5 +16,8 @@ export default defineConfig({
       vue: 'vue/dist/vue.esm-bundler.js'
     }
   },
-  base: '/Gestor-de-Tareas-con-VueJs/'
+  base: '/Gestor-de-Tareas-con-VueJs/',
+  build: {
+    outDir: 'docs', // Genera archivos en carpeta docs
+  },
 })
